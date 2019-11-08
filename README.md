@@ -7,7 +7,8 @@ how to create a basic json server and how to use it with rest API.
 ## 2. Create Server file
 Create a `db.json` file. (your preferred name but .json is compulsory)
 and enter some data in json format.
-```{
+```
+{
   "posts": [
     { "id": 1, "title": "Name 1" }
   ],
