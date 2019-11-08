@@ -7,7 +7,7 @@ how to create a basic json server and how to use it with rest API.
 # 2. Create Server file
 Create a db.json file. (your preferred name but .json is compulsory)
 and enter some data in json format.
-{
+* {
   "posts": [
     { "id": 1, "title": "Name 1" }
   ],
@@ -21,10 +21,10 @@ and enter some data in json format.
 json-server --watch db.json (fileName.json)
 
 # 4. Connect
-  http://localhost:3000/
-  http://localhost:3000/nameList/
-  http://localhost:3000/nameList/1
+  http://localhost:3000/<br>
+  http://localhost:3000/nameList/<br>
+  http://localhost:3000/nameList/1<br>
 
-if you go to http://localhost:3000/nameList/1, you'll get
+if you go to http://localhost:3000/nameList/1, you'll get<br>
 
 { "id": 1, "title": "Name 1" }
