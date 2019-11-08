@@ -2,7 +2,7 @@
 how to create a basic json server and how to use it with rest API.  
 
 ## 1. Install JSON Server
-`npm install -g json-server`.
+`npm install -g json-server`
 
 ## 2. Create Server file
 Create a `db.json` file. (your preferred name but .json is compulsory)
