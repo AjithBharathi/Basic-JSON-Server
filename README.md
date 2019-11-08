@@ -5,7 +5,7 @@ how to create a basic json server and how to use it with rest API.
 `npm install -g json-server`.
 
 # 2. Create Server file
-Create a db.json file. (your preferred name but .json is compulsory)
+Create a `db.json` file. (your preferred name but .json is compulsory)
 and enter some data in json format.
 * {
   "posts": [
@@ -18,7 +18,7 @@ and enter some data in json format.
 }
 
 # 3. Start JSON Server
-json-server --watch db.json (fileName.json)
+`json-server --watch db.json` (fileName.json)
 
 # 4. Connect
   http://localhost:3000/<br>
