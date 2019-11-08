@@ -22,11 +22,10 @@ and enter some data in json format.
 `json-server --watch db.json` (fileName.json)
 
 ## 4. Connect
-```http://localhost:3000/
-  http://localhost:3000/nameList/
-  http://localhost:3000/nameList/1
-  ```
-
-if you go to `http://localhost:3000/nameList/1`, you'll get<br>
+http://localhost:3000/<br>
+http://localhost:3000/nameList/<br>
+http://localhost:3000/nameList/1
+ 
+if you go to http://localhost:3000/nameList/1, you'll get<br>
 
 ```{ "id": 1, "title": "Name 1" }```
